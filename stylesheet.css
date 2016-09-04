@@ -1,0 +1,38 @@
+html, body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+canvas {
+	z-index: 0;
+	position: relative;
+	display: inline-block;
+}
+
+.dropbtn {
+	background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+	display: inline-block;
+    left: 0;
+    z-index: 20;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn:hover {
+	left: 50px;
+    padding-left: -50px;
+}
+
